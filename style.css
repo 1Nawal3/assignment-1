@@ -245,8 +245,6 @@
 }
 
 
-/* portfolio-container */
-
 .portfolio-container{
     max-width: 1150px;
     min-height: 450px;
@@ -291,7 +289,58 @@
     height: 100%;
 }
 
-/* footer-style */
+.subscribe-container{
+background-color: rgba(255, 0, 0, 0.1);
+background-position: center;
+margin: 90px 0px 0px 55px;
+max-width: 1150px;
+min-height: 450px;
+background-size: cover;
+background-blend-mode: overlay;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+.imgs{
+    padding: 60px 0px 0px 0px;
+}
+.letter-container{
+    font-family: "Merriweather", serif;
+    font-size: 27px;
+    font-weight: 800;
+    padding: 30px 0px 0px 0px;
+
+}
+.subs-para{
+    color: #07021199;
+}
+.subscribe-button{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    background-color: #FFF;
+    display: inline-flex;
+    padding: 13px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    
+
+}
+.email-input{
+    border: 0;
+}
+.subscribe-btn{
+       
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    background-color: #F00;
+    display: inline-flex;
+    padding: 10px 32px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 0;
+}
 .footer-container{
     min-width: 100%;
     min-height: 400px;
